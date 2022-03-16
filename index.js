@@ -13,8 +13,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client({ intents: ["GUILDS", 'GUILD_MESSAGES'] });
 
 client.on("message", message => {
-  if (message.content === "Привіт") {
-    message.channel.send("Добрий день!")
+  if (message.content === "text here") {
+    message.channel.send("text here")
   }
 })
 
